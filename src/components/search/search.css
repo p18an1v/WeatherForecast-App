@@ -1,0 +1,19 @@
+/* search.css */
+.search-container {
+    width: 300px;  /* Reduce width to match current-weather */
+  }
+  
+  .css-yk16xz-control {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #00796b;
+  }
+  
+  .css-1okebmr-indicatorSeparator {
+    background-color: transparent;
+  }
+  
+  .css-1uccc91-singleValue {
+    color: #00796b;
+  }
+  

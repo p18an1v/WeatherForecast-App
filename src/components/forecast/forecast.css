@@ -1,0 +1,65 @@
+/* forecast.css */
+.title {
+  font-size: 20px;  /* Reduce font-size */
+  font-weight: 700;
+  color: #00796b;
+}
+
+.daily-item {
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 50px;  /* Reduce height */
+  margin: 5px 0;  /* Reduce margin */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;  /* Reduce font-size */
+  padding: 10px 15px;  /* Reduce padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon-small {
+  width: 30px;  /* Reduce width */
+}
+
+.day {
+  color: #00796b;
+  flex: 1 1;
+  font-weight: 600;
+  margin-left: 10px;  /* Reduce margin */
+}
+
+.description {
+  flex: 1 1;
+  margin-right: 10px;  /* Reduce margin */
+  text-align: right;
+  color: #004d40;
+}
+
+.min-max {
+  color: #757575;
+}
+
+.daily-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;  /* Reduce gap */
+  padding: 10px 10px;  /* Reduce padding */
+}
+
+.daily-details-grid-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0f7fa;
+  padding: 8px;  /* Reduce padding */
+  border-radius: 8px;
+}
+
+.daily-details-grid-item label:first-child {
+  color: #004d40;
+}
+
+.daily-details-grid-item label:last-child {
+  color: #00796b;
+}
